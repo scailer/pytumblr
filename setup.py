@@ -18,10 +18,10 @@ setup(
     install_requires = [
         'future',
         'requests-oauthlib',
-        'httpretty',
     ],
 
     tests_require=[
+        'httpretty',
         'nose',
         'nose-cov',
         'mock'
